@@ -151,4 +151,44 @@ export default {
   font-size: 2rem;
   padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 980px) {
+  #app {
+    padding: 2rem 0;
+  }
+
+  .card {
+    margin-top: 10rem;
+    flex-direction: column;
+    background-image: url('./assets/images/bg-pattern-mobile.svg');
+    background-position: 50% -5%;
+    background-repeat: no-repeat;
+    background-size: 250px;
+  }
+
+  .card__body {
+    padding: 2rem;
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  .card__wraper {
+    overflow: inherit;
+  }
+
+  .card__image--box {
+    left: -15px;
+    top: -40px;
+    height: 80px;
+  }
+
+  .card__image--women {
+    margin: -7rem auto 0 auto;
+    max-width: 225px;
+  }
+
+  .card__body--header {
+    text-align: center;
+  }
+}
 </style>
